@@ -20,7 +20,9 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
     - name: Build with Gradle
-      run: ./gradlew publishToMavenLocal
+      run: |
+        JADX_VERSION="1.5.0-dev"
+        ./gradlew publishToMavenLocal
     - name: Add updated files to stage 
       run: git add --all 
     - name: Setup email 
