@@ -1,0 +1,15 @@
+-Xdoclint:all,-missing '-quiet'
+-classpath '/home/runner/work/jadx/jadx/jadx-plugins/jadx-java-convert/build/classes/java/main:/home/runner/work/jadx/jadx/jadx-plugins/jadx-java-convert/build/resources/main:/home/runner/work/jadx/jadx/jadx-plugins/jadx-dex-input/build/classes/java/main:/home/runner/work/jadx/jadx/jadx-core/build/classes/java/main:/home/runner/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/25.0.0/c1e6b966db352094ac3bf7f88f3bdef332fe43f0/annotations-25.0.0.jar:/home/runner/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.16/172931663a09a1fa515567af5fbef00897d3c04/slf4j-api-2.0.16.jar:/home/runner/.gradle/caches/modules-2/files-2.1/com.jakewharton.android.repackaged/dalvik-dx/14.0.0_r21/32620ff33021392d62e9ec275f9e0edc8eca2fe4/dalvik-dx-14.0.0_r21.jar:/home/runner/.gradle/caches/modules-2/files-2.1/com.android.tools/r8/8.5.35/6b41e4ac5e238c953246d07c006585aecc16c546/r8-8.5.35.jar:/home/runner/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.7/73d7b3086e14beb604ced229c302feff6449723/asm-9.7.jar:/home/runner/work/jadx/jadx/jadx-plugins/jadx-input-api/build/classes/java/main'
+-d '/home/runner/work/jadx/jadx/jadx-plugins/jadx-java-convert/build/docs/javadoc'
+-doctitle 'jadx-java-convert dev API'
+-html5 
+-notimestamp 
+-quiet 
+-windowtitle 'jadx-java-convert dev API'
+'/home/runner/work/jadx/jadx/jadx-plugins/jadx-java-convert/src/main/java/jadx/plugins/input/javaconvert/DxConverter.java'
+'/home/runner/work/jadx/jadx/jadx-plugins/jadx-java-convert/src/main/java/jadx/plugins/input/javaconvert/ConvertResult.java'
+'/home/runner/work/jadx/jadx/jadx-plugins/jadx-java-convert/src/main/java/jadx/plugins/input/javaconvert/JavaConvertLoader.java'
+'/home/runner/work/jadx/jadx/jadx-plugins/jadx-java-convert/src/main/java/jadx/plugins/input/javaconvert/AsmUtils.java'
+'/home/runner/work/jadx/jadx/jadx-plugins/jadx-java-convert/src/main/java/jadx/plugins/input/javaconvert/D8Converter.java'
+'/home/runner/work/jadx/jadx/jadx-plugins/jadx-java-convert/src/main/java/jadx/plugins/input/javaconvert/JavaConvertOptions.java'
+'/home/runner/work/jadx/jadx/jadx-plugins/jadx-java-convert/src/main/java/jadx/plugins/input/javaconvert/JavaConvertPlugin.java'

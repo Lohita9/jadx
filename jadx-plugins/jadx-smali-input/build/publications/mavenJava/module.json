@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.skylot",
+    "module": "jadx-smali-input",
+    "version": "dev",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.skylot",
+          "module": "jadx-core",
+          "version": {
+            "requires": "dev"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jadx-smali-input-dev.jar",
+          "url": "jadx-smali-input-dev.jar",
+          "size": 9181,
+          "sha512": "d3c07813f694615af45cba89c32b7f95645668fc67a5acec207df59fc441e551edc656b85f12373d794ac8ee0b1886f3320a353f546c18bdf81bdb02cec95ed2",
+          "sha256": "4ac7b61b2b7f9945051e0948b260fc434096ea772b4bf1da51ed6c821103e706",
+          "sha1": "a0b2ac0c7aa1e5cbcd35c47792218e41002690d0",
+          "md5": "fc84d16a006543255aa8f826f3fe2416"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "io.github.skylot",
+          "module": "jadx-dex-input",
+          "version": {
+            "requires": "dev"
+          }
+        },
+        {
+          "group": "com.android.tools.smali",
+          "module": "smali",
+          "version": {
+            "requires": "3.0.8"
+          },
+          "excludes": [
+            {
+              "group": "com.beust",
+              "module": "jcommander"
+            }
+          ]
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "33.3.1-jre"
+          }
+        },
+        {
+          "group": "io.github.skylot",
+          "module": "jadx-core",
+          "version": {
+            "requires": "dev"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jadx-smali-input-dev.jar",
+          "url": "jadx-smali-input-dev.jar",
+          "size": 9181,
+          "sha512": "d3c07813f694615af45cba89c32b7f95645668fc67a5acec207df59fc441e551edc656b85f12373d794ac8ee0b1886f3320a353f546c18bdf81bdb02cec95ed2",
+          "sha256": "4ac7b61b2b7f9945051e0948b260fc434096ea772b4bf1da51ed6c821103e706",
+          "sha1": "a0b2ac0c7aa1e5cbcd35c47792218e41002690d0",
+          "md5": "fc84d16a006543255aa8f826f3fe2416"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jadx-smali-input-dev-javadoc.jar",
+          "url": "jadx-smali-input-dev-javadoc.jar",
+          "size": 103275,
+          "sha512": "1bc9c44b5b00e1e4e654846f84584da7eda84e0ff013d2993a314dde70aa9c052a4e510ea3c944d5ffd68d9155b91b74f126e01cb1607a7818989760926fe07f",
+          "sha256": "c6f15a609742bad7a62f91da44e27785d3cf79e25ef2fa905e5956575f568ddc",
+          "sha1": "585549f09fbfac0480aee61d8db1525f152e6d00",
+          "md5": "a3e1e996c52fbc81c76229c01651b1c7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jadx-smali-input-dev-sources.jar",
+          "url": "jadx-smali-input-dev-sources.jar",
+          "size": 4419,
+          "sha512": "e8beed962e765f317f0f8a8bf9d64c4b2ea385e83f163c25e90072dfe6aa88a1d5ef98ca6499e20863f30a4c34d70987b2617e95abaf066c292b952be7f4d1a5",
+          "sha256": "dba7cabfe02a54ab90449c023a96db5981fb72bfc420c80e7f27e937023b62e7",
+          "sha1": "f9fc4b473439704c845c9e55561e83e397669d29",
+          "md5": "b9c14d5e33ee50a928e0a9959f34c66c"
+        }
+      ]
+    }
+  ]
+}

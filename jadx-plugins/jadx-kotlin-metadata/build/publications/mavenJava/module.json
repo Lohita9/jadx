@@ -1,0 +1,159 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.skylot",
+    "module": "jadx-kotlin-metadata",
+    "version": "dev",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.skylot",
+          "module": "jadx-core",
+          "version": {
+            "requires": "dev"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jadx-kotlin-metadata-dev.jar",
+          "url": "jadx-kotlin-metadata-dev.jar",
+          "size": 55658,
+          "sha512": "64c4b45761b8fde43bacf59bf96fadc810366ed828c9446e5643b6592a1b2d40df3b863a131ffbe7f43b1ec1743c6c3a497334f010ab5b2f9281bd14bc88ce8f",
+          "sha256": "83ca07a4e9f76458460a3334869d8481655feaff5f487e5f3e550f110d28a8b4",
+          "sha1": "cf570948a5c7e0bd1e5f4e080f040b1c8c5dd1a1",
+          "md5": "92b6e3fc660bc6724c10afc7f8f0dc30"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-metadata-jvm",
+          "version": {
+            "requires": "0.9.0"
+          }
+        },
+        {
+          "group": "io.github.skylot",
+          "module": "jadx-core",
+          "version": {
+            "requires": "dev"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jadx-kotlin-metadata-dev.jar",
+          "url": "jadx-kotlin-metadata-dev.jar",
+          "size": 55658,
+          "sha512": "64c4b45761b8fde43bacf59bf96fadc810366ed828c9446e5643b6592a1b2d40df3b863a131ffbe7f43b1ec1743c6c3a497334f010ab5b2f9281bd14bc88ce8f",
+          "sha256": "83ca07a4e9f76458460a3334869d8481655feaff5f487e5f3e550f110d28a8b4",
+          "sha1": "cf570948a5c7e0bd1e5f4e080f040b1c8c5dd1a1",
+          "md5": "92b6e3fc660bc6724c10afc7f8f0dc30"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jadx-kotlin-metadata-dev-javadoc.jar",
+          "url": "jadx-kotlin-metadata-dev-javadoc.jar",
+          "size": 261,
+          "sha512": "9d7d46189fff7db37eafb237d47db5c127fd7a2df8b762fe12076faafd932d23f714f23ba4cf6bc6a6c8867a4c6110195d2cced3a67d3b635bed9c5b759bbfcf",
+          "sha256": "a00c47841d24b89d924b0dbb01588050f5a5bdb0257e6004eb7712e3d4c3fab4",
+          "sha1": "beecc00666957a270e223c5baa38bf29805f7538",
+          "md5": "6398bdc6d452cf5b5c8128df0e90e640"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jadx-kotlin-metadata-dev-sources.jar",
+          "url": "jadx-kotlin-metadata-dev-sources.jar",
+          "size": 12256,
+          "sha512": "bbb40c430394a44f45977ece30cdbbb3d8883831c7f289f189ff2a740e09bb2231c020eadf910f37a54408cff1b1986f60da346f28e7c682f9bd9b0a8448819d",
+          "sha256": "7455856db9f025408aa34d250ee83a6c66a5ef03c028e88755adac3e962d0938",
+          "sha1": "eeb9ee4c4578e0942b63ea0aab58c36978b218ea",
+          "md5": "53dffaeaa9fa2d8ac0a7925f82268fe9"
+        },
+        {
+          "name": "jadx-kotlin-metadata-dev-sources.jar",
+          "url": "jadx-kotlin-metadata-dev-sources.jar",
+          "size": 12256,
+          "sha512": "bbb40c430394a44f45977ece30cdbbb3d8883831c7f289f189ff2a740e09bb2231c020eadf910f37a54408cff1b1986f60da346f28e7c682f9bd9b0a8448819d",
+          "sha256": "7455856db9f025408aa34d250ee83a6c66a5ef03c028e88755adac3e962d0938",
+          "sha1": "eeb9ee4c4578e0942b63ea0aab58c36978b218ea",
+          "md5": "53dffaeaa9fa2d8ac0a7925f82268fe9"
+        }
+      ]
+    }
+  ]
+}

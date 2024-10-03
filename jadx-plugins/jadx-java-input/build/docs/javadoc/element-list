@@ -1,0 +1,11 @@
+jadx.plugins.input.java
+jadx.plugins.input.java.data
+jadx.plugins.input.java.data.attributes
+jadx.plugins.input.java.data.attributes.debuginfo
+jadx.plugins.input.java.data.attributes.stack
+jadx.plugins.input.java.data.attributes.types
+jadx.plugins.input.java.data.attributes.types.data
+jadx.plugins.input.java.data.code
+jadx.plugins.input.java.data.code.decoders
+jadx.plugins.input.java.data.code.trycatch
+jadx.plugins.input.java.utils

@@ -1,0 +1,10 @@
+-Xdoclint:all,-missing '-quiet'
+-classpath '/home/runner/work/jadx/jadx/jadx-plugins/jadx-raung-input/build/classes/java/main:/home/runner/work/jadx/jadx/jadx-plugins/jadx-raung-input/build/resources/main:/home/runner/work/jadx/jadx/jadx-core/build/classes/java/main:/home/runner/.gradle/caches/modules-2/files-2.1/io.github.skylot/raung-asm/0.1.1/22f49b69dd86813b4fc8b36adf1704a5268ff57d/raung-asm-0.1.1.jar:/home/runner/.gradle/caches/modules-2/files-2.1/io.github.skylot/raung-common/0.1.1/3646840d996616ca0f96d1c10316c58e4e0bb771/raung-common-0.1.1.jar:/home/runner/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/25.0.0/c1e6b966db352094ac3bf7f88f3bdef332fe43f0/annotations-25.0.0.jar:/home/runner/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.16/172931663a09a1fa515567af5fbef00897d3c04/slf4j-api-2.0.16.jar:/home/runner/work/jadx/jadx/jadx-plugins/jadx-input-api/build/classes/java/main:/home/runner/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/9.6/f77caf84eb93786a749b2baa40865b9613e3eaee/asm-util-9.6.jar:/home/runner/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/9.6/9ce6c7b174bd997fc2552dff47964546bd7a5ec3/asm-analysis-9.6.jar:/home/runner/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/9.6/c0cdda9d211e965d2a4448aa3fd86110f2f8c2de/asm-tree-9.6.jar:/home/runner/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.6/aa205cf0a06dbd8e04ece91c0b37c3f5d567546a/asm-9.6.jar'
+-d '/home/runner/work/jadx/jadx/jadx-plugins/jadx-raung-input/build/docs/javadoc'
+-doctitle 'jadx-raung-input dev API'
+-html5 
+-notimestamp 
+-quiet 
+-windowtitle 'jadx-raung-input dev API'
+'/home/runner/work/jadx/jadx/jadx-plugins/jadx-raung-input/src/main/java/jadx/plugins/input/raung/RaungConvert.java'
+'/home/runner/work/jadx/jadx/jadx-plugins/jadx-raung-input/src/main/java/jadx/plugins/input/raung/RaungInputPlugin.java'

@@ -1,0 +1,7 @@
+jadx.plugins.tools
+jadx.plugins.tools.data
+jadx.plugins.tools.resolvers
+jadx.plugins.tools.resolvers.file
+jadx.plugins.tools.resolvers.github
+jadx.plugins.tools.resolvers.github.data
+jadx.plugins.tools.utils

@@ -1,0 +1,9 @@
+jadx.api.plugins.input
+jadx.api.plugins.input.data
+jadx.api.plugins.input.data.annotations
+jadx.api.plugins.input.data.attributes
+jadx.api.plugins.input.data.attributes.types
+jadx.api.plugins.input.data.impl
+jadx.api.plugins.input.insns
+jadx.api.plugins.input.insns.custom
+jadx.api.plugins.input.insns.custom.impl

@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"jadx.commons.app","l":"JadxCommonEnv"},{"p":"jadx.commons.app","l":"JadxCommonFiles"}];updateSearchResults();

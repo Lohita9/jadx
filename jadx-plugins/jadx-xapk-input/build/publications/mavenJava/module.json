@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.skylot",
+    "module": "jadx-xapk-input",
+    "version": "dev",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.skylot",
+          "module": "jadx-core",
+          "version": {
+            "requires": "dev"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jadx-xapk-input-dev.jar",
+          "url": "jadx-xapk-input-dev.jar",
+          "size": 15369,
+          "sha512": "af7c474d656425dc26b001bac862d6258de46092defc82d14f974b3dd51b4a746df17b170555972c44111e0441326c03a99bc194ebac4a6cae89b91df3f98857",
+          "sha256": "9a174dd578b619304f44e5071634b3091d1ce5d5ab92337c029dbb98e1a4de72",
+          "sha1": "2fce2101cb002597fc6e0b3e4460a38ab96e4446",
+          "md5": "9ab75e512e75f2d20ae48e1b1a62614e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "io.github.skylot",
+          "module": "jadx-dex-input",
+          "version": {
+            "requires": "dev"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "io.github.skylot",
+          "module": "jadx-core",
+          "version": {
+            "requires": "dev"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jadx-xapk-input-dev.jar",
+          "url": "jadx-xapk-input-dev.jar",
+          "size": 15369,
+          "sha512": "af7c474d656425dc26b001bac862d6258de46092defc82d14f974b3dd51b4a746df17b170555972c44111e0441326c03a99bc194ebac4a6cae89b91df3f98857",
+          "sha256": "9a174dd578b619304f44e5071634b3091d1ce5d5ab92337c029dbb98e1a4de72",
+          "sha1": "2fce2101cb002597fc6e0b3e4460a38ab96e4446",
+          "md5": "9ab75e512e75f2d20ae48e1b1a62614e"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jadx-xapk-input-dev-javadoc.jar",
+          "url": "jadx-xapk-input-dev-javadoc.jar",
+          "size": 261,
+          "sha512": "9d7d46189fff7db37eafb237d47db5c127fd7a2df8b762fe12076faafd932d23f714f23ba4cf6bc6a6c8867a4c6110195d2cced3a67d3b635bed9c5b759bbfcf",
+          "sha256": "a00c47841d24b89d924b0dbb01588050f5a5bdb0257e6004eb7712e3d4c3fab4",
+          "sha1": "beecc00666957a270e223c5baa38bf29805f7538",
+          "md5": "6398bdc6d452cf5b5c8128df0e90e640"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jadx-xapk-input-dev-sources.jar",
+          "url": "jadx-xapk-input-dev-sources.jar",
+          "size": 3747,
+          "sha512": "0a8881cd224bf12500c69bce7142791a1432d8f5ee48561792f8912e2b55bb2e93fb16816414f8fa94f9b1ee993c463126aa88ce419336fa309882309dea7a19",
+          "sha256": "197221237fa1b4ef1f2747cbcd1db3a3cc4b4ef075d24a40779a316a40db007f",
+          "sha1": "9b3fbe61011a7bdafb9b286551899788da525046",
+          "md5": "57e68e7e477bdd559e84373072441341"
+        },
+        {
+          "name": "jadx-xapk-input-dev-sources.jar",
+          "url": "jadx-xapk-input-dev-sources.jar",
+          "size": 3747,
+          "sha512": "0a8881cd224bf12500c69bce7142791a1432d8f5ee48561792f8912e2b55bb2e93fb16816414f8fa94f9b1ee993c463126aa88ce419336fa309882309dea7a19",
+          "sha256": "197221237fa1b4ef1f2747cbcd1db3a3cc4b4ef075d24a40779a316a40db007f",
+          "sha1": "9b3fbe61011a7bdafb9b286551899788da525046",
+          "md5": "57e68e7e477bdd559e84373072441341"
+        }
+      ]
+    }
+  ]
+}

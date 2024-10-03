@@ -1,0 +1,16 @@
+-Xdoclint:all,-missing '-quiet'
+-classpath '/home/runner/work/jadx/jadx/jadx-plugins/jadx-aab-input/build/classes/java/main:/home/runner/work/jadx/jadx/jadx-plugins/jadx-aab-input/build/resources/main:/home/runner/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/25.0.0/c1e6b966db352094ac3bf7f88f3bdef332fe43f0/annotations-25.0.0.jar:/home/runner/work/jadx/jadx/jadx-core/build/classes/java/main:/home/runner/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.16/172931663a09a1fa515567af5fbef00897d3c04/slf4j-api-2.0.16.jar:/home/runner/.gradle/caches/modules-2/files-2.1/com.android.tools.build/aapt2-proto/8.6.1-11315950/bfe391dbe6e6b74fd7341daa4074beb3da640ae0/aapt2-proto-8.6.1-11315950.jar:/home/runner/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.25.3/d3200261955f3298e0d85c9892201e70492ce8eb/protobuf-java-3.25.3.jar:/home/runner/.gradle/caches/modules-2/files-2.1/com.android.tools.build/bundletool/1.17.1/267feb0f9bcff527cdf35a3544d77ad4d3e636dd/bundletool-1.17.1.jar:/home/runner/work/jadx/jadx/jadx-plugins/jadx-input-api/build/classes/java/main'
+-d '/home/runner/work/jadx/jadx/jadx-plugins/jadx-aab-input/build/docs/javadoc'
+-doctitle 'jadx-aab-input dev API'
+-html5 
+-notimestamp 
+-quiet 
+-windowtitle 'jadx-aab-input dev API'
+'/home/runner/work/jadx/jadx/jadx-plugins/jadx-aab-input/src/main/java/jadx/plugins/input/aab/factories/ProtoBundleConfigResContainerFactory.java'
+'/home/runner/work/jadx/jadx/jadx-plugins/jadx-aab-input/src/main/java/jadx/plugins/input/aab/factories/ProtoXmlResContainerFactory.java'
+'/home/runner/work/jadx/jadx/jadx-plugins/jadx-aab-input/src/main/java/jadx/plugins/input/aab/factories/ProtoTableResContainerFactory.java'
+'/home/runner/work/jadx/jadx/jadx-plugins/jadx-aab-input/src/main/java/jadx/plugins/input/aab/parsers/ResXmlProtoParser.java'
+'/home/runner/work/jadx/jadx/jadx-plugins/jadx-aab-input/src/main/java/jadx/plugins/input/aab/parsers/ResTableProtoParser.java'
+'/home/runner/work/jadx/jadx/jadx-plugins/jadx-aab-input/src/main/java/jadx/plugins/input/aab/parsers/CommonProtoParser.java'
+'/home/runner/work/jadx/jadx/jadx-plugins/jadx-aab-input/src/main/java/jadx/plugins/input/aab/AabInputPlugin.java'
+'/home/runner/work/jadx/jadx/jadx-plugins/jadx-aab-input/src/main/java/jadx/plugins/input/aab/ResTableProtoParserProvider.java'

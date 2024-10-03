@@ -1,0 +1,10 @@
+-Xdoclint:all,-missing '-quiet'
+-classpath '/home/runner/work/jadx/jadx/jadx-commons/jadx-app-commons/build/classes/java/main:/home/runner/work/jadx/jadx/jadx-commons/jadx-app-commons/build/resources/main:/home/runner/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/25.0.0/c1e6b966db352094ac3bf7f88f3bdef332fe43f0/annotations-25.0.0.jar:/home/runner/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.16/172931663a09a1fa515567af5fbef00897d3c04/slf4j-api-2.0.16.jar:/home/runner/.gradle/caches/modules-2/files-2.1/dev.dirs/directories/26/a7fef4c8ef0831ba9ab5c029f04f6cd42d68ea18/directories-26.jar'
+-d '/home/runner/work/jadx/jadx/jadx-commons/jadx-app-commons/build/docs/javadoc'
+-doctitle 'jadx-app-commons dev API'
+-html5 
+-notimestamp 
+-quiet 
+-windowtitle 'jadx-app-commons dev API'
+'/home/runner/work/jadx/jadx/jadx-commons/jadx-app-commons/src/main/java/jadx/commons/app/JadxCommonEnv.java'
+'/home/runner/work/jadx/jadx/jadx-commons/jadx-app-commons/src/main/java/jadx/commons/app/JadxCommonFiles.java'

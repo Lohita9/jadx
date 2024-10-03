@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.skylot",
+    "module": "jadx-dex-input",
+    "version": "dev",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.skylot",
+          "module": "jadx-core",
+          "version": {
+            "requires": "dev"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jadx-dex-input-dev.jar",
+          "url": "jadx-dex-input-dev.jar",
+          "size": 104415,
+          "sha512": "58d7542fefbfa8b59994713c2a1e27f611e47d86efd38f49798a812d719e5668e4ea4e6687ab73d238a301422160544ed514a64aef3f6d61f95e777defa939bf",
+          "sha256": "f44ba85cae85dd7728207d5f8a164e3d8de629cbec8f314a93bbf2e6dbc9ad41",
+          "sha1": "abd7f60f9ecb0e9b1cd2359c74c3e37838b43f04",
+          "md5": "02731c7741dab8592d183db381e5a8a5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "com.android.tools.smali",
+          "module": "smali-baksmali",
+          "version": {
+            "requires": "3.0.8"
+          },
+          "excludes": [
+            {
+              "group": "com.beust",
+              "module": "jcommander"
+            }
+          ]
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "33.3.1-jre"
+          }
+        },
+        {
+          "group": "io.github.skylot",
+          "module": "jadx-core",
+          "version": {
+            "requires": "dev"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jadx-dex-input-dev.jar",
+          "url": "jadx-dex-input-dev.jar",
+          "size": 104415,
+          "sha512": "58d7542fefbfa8b59994713c2a1e27f611e47d86efd38f49798a812d719e5668e4ea4e6687ab73d238a301422160544ed514a64aef3f6d61f95e777defa939bf",
+          "sha256": "f44ba85cae85dd7728207d5f8a164e3d8de629cbec8f314a93bbf2e6dbc9ad41",
+          "sha1": "abd7f60f9ecb0e9b1cd2359c74c3e37838b43f04",
+          "md5": "02731c7741dab8592d183db381e5a8a5"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jadx-dex-input-dev-javadoc.jar",
+          "url": "jadx-dex-input-dev-javadoc.jar",
+          "size": 250790,
+          "sha512": "b85b6105956f4539b0484f5d881ac3a150ccf0287a77093c47b712e4ef2da26ce3ae72fea02436e66e2f952abf1fc11447af11c2d43e88bf236eaf76487d2533",
+          "sha256": "e2a59cab1b13b8bee6c7a9105d72de559e7f172742cb7ed586252cbc8bd596c2",
+          "sha1": "c3130d5138e2627535fddcc40f3fb0785e19f982",
+          "md5": "e41b8d434141070de1016c8ac3e2d7c0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jadx-dex-input-dev-sources.jar",
+          "url": "jadx-dex-input-dev-sources.jar",
+          "size": 40755,
+          "sha512": "3108ed75bb818f4f4c1e09ee0e36355b4b9220b96e72859c74c6eab912414bebfdfc3ea75bb58e7a44f2259292b9c62d03df1c0a7a8f6089df3b5e2933f6ab6b",
+          "sha256": "b51a29022d0ee391006effe06ba0d54d05b42db5f74f500f3c044548778b1473",
+          "sha1": "02c220efda4c9b7968591d5b462f06e738b1851e",
+          "md5": "2c1b7a6ae01e1ee73bcac01e73e1c3a0"
+        }
+      ]
+    }
+  ]
+}

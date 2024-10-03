@@ -1,0 +1,259 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.skylot",
+    "module": "jadx-script-runtime",
+    "version": "dev",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.skylot",
+          "module": "jadx-core",
+          "version": {
+            "requires": "dev"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jadx-script-runtime-dev.jar",
+          "url": "jadx-script-runtime-dev.jar",
+          "size": 56948,
+          "sha512": "3654be2b54e7fd5857ef4310138de7811837c6c48514d6ad59c04fdedb1e11a9cf1b0b38f7616f57b6a6d9f5b285b950786cf25a881b79e01dd8058f5e15dad0",
+          "sha256": "a2fcb7e80a29617d31ccdf482bdd2f4c587656ba0b88adba292dde62e3e9e146",
+          "sha1": "b3340a0159a42bae9c715a7446da36f16a0f7115",
+          "md5": "88fb98f953cb88277e972fc36abdb43e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-scripting-common",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-scripting-jvm",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-scripting-dependencies",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-scripting-dependencies-maven",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging-jvm",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "io.github.skylot",
+          "module": "jadx-core",
+          "version": {
+            "requires": "dev"
+          }
+        },
+        {
+          "group": "io.github.skylot",
+          "module": "jadx-dex-input",
+          "version": {
+            "requires": "dev"
+          }
+        },
+        {
+          "group": "io.github.skylot",
+          "module": "jadx-smali-input",
+          "version": {
+            "requires": "dev"
+          }
+        },
+        {
+          "group": "io.github.skylot",
+          "module": "jadx-java-convert",
+          "version": {
+            "requires": "dev"
+          }
+        },
+        {
+          "group": "io.github.skylot",
+          "module": "jadx-java-input",
+          "version": {
+            "requires": "dev"
+          }
+        },
+        {
+          "group": "io.github.skylot",
+          "module": "jadx-raung-input",
+          "version": {
+            "requires": "dev"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-scripting-common",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-scripting-jvm",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-scripting-dependencies",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-scripting-dependencies-maven",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jadx-script-runtime-dev.jar",
+          "url": "jadx-script-runtime-dev.jar",
+          "size": 56948,
+          "sha512": "3654be2b54e7fd5857ef4310138de7811837c6c48514d6ad59c04fdedb1e11a9cf1b0b38f7616f57b6a6d9f5b285b950786cf25a881b79e01dd8058f5e15dad0",
+          "sha256": "a2fcb7e80a29617d31ccdf482bdd2f4c587656ba0b88adba292dde62e3e9e146",
+          "sha1": "b3340a0159a42bae9c715a7446da36f16a0f7115",
+          "md5": "88fb98f953cb88277e972fc36abdb43e"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jadx-script-runtime-dev-javadoc.jar",
+          "url": "jadx-script-runtime-dev-javadoc.jar",
+          "size": 261,
+          "sha512": "9d7d46189fff7db37eafb237d47db5c127fd7a2df8b762fe12076faafd932d23f714f23ba4cf6bc6a6c8867a4c6110195d2cced3a67d3b635bed9c5b759bbfcf",
+          "sha256": "a00c47841d24b89d924b0dbb01588050f5a5bdb0257e6004eb7712e3d4c3fab4",
+          "sha1": "beecc00666957a270e223c5baa38bf29805f7538",
+          "md5": "6398bdc6d452cf5b5c8128df0e90e640"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jadx-script-runtime-dev-sources.jar",
+          "url": "jadx-script-runtime-dev-sources.jar",
+          "size": 9282,
+          "sha512": "f19f8f2a39a46fd299018ff53eea301346ed20c1e2e6145bb729c2090da574f8e45b92612d265236e5c1f90bf719715ae2ff78c79ccdce883a12615b744288ad",
+          "sha256": "f512373fa58cca727aa3533be6dc2fb6bad21994d8f0ee6e5c03e23d5e0b04e2",
+          "sha1": "10388fb4abb6d2b9a7642020fd10fb3880f5d5bb",
+          "md5": "fcd84e6aa8fe057e044cfb957728bed3"
+        },
+        {
+          "name": "jadx-script-runtime-dev-sources.jar",
+          "url": "jadx-script-runtime-dev-sources.jar",
+          "size": 9282,
+          "sha512": "f19f8f2a39a46fd299018ff53eea301346ed20c1e2e6145bb729c2090da574f8e45b92612d265236e5c1f90bf719715ae2ff78c79ccdce883a12615b744288ad",
+          "sha256": "f512373fa58cca727aa3533be6dc2fb6bad21994d8f0ee6e5c03e23d5e0b04e2",
+          "sha1": "10388fb4abb6d2b9a7642020fd10fb3880f5d5bb",
+          "md5": "fcd84e6aa8fe057e044cfb957728bed3"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"jadx.plugins.mappings"},{"l":"jadx.plugins.mappings.load"},{"l":"jadx.plugins.mappings.save"},{"l":"jadx.plugins.mappings.utils"}];updateSearchResults();

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>io.github.skylot</groupId>
+  <artifactId>jadx-input-api</artifactId>
+  <versioning>
+    <latest>dev</latest>
+    <release>dev</release>
+    <versions>
+      <version>dev</version>
+    </versions>
+    <lastUpdated>20241003141418</lastUpdated>
+  </versioning>
+</metadata>

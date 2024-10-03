@@ -1,0 +1,159 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.skylot",
+    "module": "jadx-rename-mappings",
+    "version": "dev",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.skylot",
+          "module": "jadx-core",
+          "version": {
+            "requires": "dev"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "mapping-io",
+          "version": {
+            "requires": "0.6.1"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm:asm",
+              "module": "*"
+            },
+            {
+              "group": "net.fabricmc:tiny-remapper",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "jadx-rename-mappings-dev.jar",
+          "url": "jadx-rename-mappings-dev.jar",
+          "size": 25920,
+          "sha512": "52a6a300d4345f80081904e9debbc8fd369aa73d4daffa8002808b8cb49fc35bbd0ebce2688a680c1900989d015fc037c4adbf229e2b0b844c3746351dbde848",
+          "sha256": "4e6a2215544e189285c65de3bd8b289c19eeac8cd16ab64942f7122a16724967",
+          "sha1": "60da75364ee4b2d72f44e7ab2dbe7e5c5e014827",
+          "md5": "4e40b0bc49ca692281d2eb97b4ad9c41"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "io.github.skylot",
+          "module": "jadx-core",
+          "version": {
+            "requires": "dev"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "mapping-io",
+          "version": {
+            "requires": "0.6.1"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm:asm",
+              "module": "*"
+            },
+            {
+              "group": "net.fabricmc:tiny-remapper",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "jadx-rename-mappings-dev.jar",
+          "url": "jadx-rename-mappings-dev.jar",
+          "size": 25920,
+          "sha512": "52a6a300d4345f80081904e9debbc8fd369aa73d4daffa8002808b8cb49fc35bbd0ebce2688a680c1900989d015fc037c4adbf229e2b0b844c3746351dbde848",
+          "sha256": "4e6a2215544e189285c65de3bd8b289c19eeac8cd16ab64942f7122a16724967",
+          "sha1": "60da75364ee4b2d72f44e7ab2dbe7e5c5e014827",
+          "md5": "4e40b0bc49ca692281d2eb97b4ad9c41"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jadx-rename-mappings-dev-javadoc.jar",
+          "url": "jadx-rename-mappings-dev-javadoc.jar",
+          "size": 131973,
+          "sha512": "41234ae1489c04beba08b9266b24b752f2151b6204ba9b052e6156021289ba515cbdb5f2175d9e8fb6cdc6788ab12e3cfb3e8c1d43a64bcdb26eafa85c533d76",
+          "sha256": "ffca32d32d24ebb53645b7290d5c65967fd93e3f32e8f1aa5bb84c8cb3bf6e02",
+          "sha1": "be48f24231efd70a4e50822e048f4bd0dd4e028a",
+          "md5": "fe5d461ffd95c891456f8c938980ee30"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jadx-rename-mappings-dev-sources.jar",
+          "url": "jadx-rename-mappings-dev-sources.jar",
+          "size": 11825,
+          "sha512": "3eebfea5fb4e7a1b03cd862334c508c82e7f580866dc283e4bd0aa206e5c2440b1e758dfd0d679fc7a501722655976cf15a41296e4e71cfa369a45e0654b8053",
+          "sha256": "f611a2e12ce40deea71942c9b866ec62f4d3fd4af121ada1c878c950f8cb9621",
+          "sha1": "a3d56b0264ecb4735b3b56bb3c93234ea3916cb9",
+          "md5": "f27d66eae63384da5582a9dcf40f91f6"
+        }
+      ]
+    }
+  ]
+}

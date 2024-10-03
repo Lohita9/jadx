@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.skylot",
+    "module": "jadx-plugins-tools",
+    "version": "dev",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.skylot",
+          "module": "jadx-core",
+          "version": {
+            "requires": "dev"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jadx-plugins-tools-dev.jar",
+          "url": "jadx-plugins-tools-dev.jar",
+          "size": 35183,
+          "sha512": "574d0372a68266c06bf3b293dbe2c9d57b569f521f88785fece543706155df55db1309bbe843244c4c23fb3532dcb7a4c1951e53cf46a9912c2cadeabf516a47",
+          "sha256": "be91fd8b9dd72514777eba9524ecad2f309eec27f9e075778a51027664460879",
+          "sha1": "d5e56cc7a6c8d6a9f7a7330c1593f5ee4528a2bf",
+          "md5": "255593e5fb544e38ca2321aadb00d13a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "io.github.skylot",
+          "module": "jadx-app-commons",
+          "version": {
+            "requires": "dev"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "io.github.skylot",
+          "module": "jadx-core",
+          "version": {
+            "requires": "dev"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jadx-plugins-tools-dev.jar",
+          "url": "jadx-plugins-tools-dev.jar",
+          "size": 35183,
+          "sha512": "574d0372a68266c06bf3b293dbe2c9d57b569f521f88785fece543706155df55db1309bbe843244c4c23fb3532dcb7a4c1951e53cf46a9912c2cadeabf516a47",
+          "sha256": "be91fd8b9dd72514777eba9524ecad2f309eec27f9e075778a51027664460879",
+          "sha1": "d5e56cc7a6c8d6a9f7a7330c1593f5ee4528a2bf",
+          "md5": "255593e5fb544e38ca2321aadb00d13a"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jadx-plugins-tools-dev-javadoc.jar",
+          "url": "jadx-plugins-tools-dev-javadoc.jar",
+          "size": 160491,
+          "sha512": "b8311320cb400a3300ff71718e2d03e91a3c9f939a163ca9e3e666aae826021cb9302593b58c09c01a5d990a53fe6e5d113bdfda6b2a94fc4f8b469d407c84e5",
+          "sha256": "30bfe01709564b2f94041e3fe2fe528f93f09e046cf0f3212031d9be45e8e621",
+          "sha1": "de910e51c10594a73c72607d43bc5baefe16d3b8",
+          "md5": "8f0f43d63bdcbc93c74fdaf8925834f8"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jadx-plugins-tools-dev-sources.jar",
+          "url": "jadx-plugins-tools-dev-sources.jar",
+          "size": 15407,
+          "sha512": "dcb7f962640790378c6c29ec8130fa18ccf94a9708bbce54f0072e1d19091f9a190bd5e875cc411bbfa4800e7d02bf20e63da4d5abf4ebc98a74d982d1b5c7d7",
+          "sha256": "f94c57b2601ba6a9f0f37754ca3c0af40dddb07cc105152c078f0e04cabea2f8",
+          "sha1": "31b4baac672954bc4b94672b8609f88b15499230",
+          "md5": "e305a59e6d2105143b0b268c20bfb875"
+        }
+      ]
+    }
+  ]
+}

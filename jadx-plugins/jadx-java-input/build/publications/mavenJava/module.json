@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.skylot",
+    "module": "jadx-java-input",
+    "version": "dev",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.skylot",
+          "module": "jadx-core",
+          "version": {
+            "requires": "dev"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jadx-java-input-dev.jar",
+          "url": "jadx-java-input-dev.jar",
+          "size": 113495,
+          "sha512": "0a8915bac3bb55bba98a498cb7853a0200caae0d7e9c534b505c3662fa6dbf1a4aa546764fe6fb3cc2551b6250a2373cecc7990e0d2fe68e785527a0644e75d8",
+          "sha256": "6d3a85f2dd9117ca563d0749e1d18aef83ae2bcae085a6ddeb76d2c8d7daff90",
+          "sha1": "946722d284e5c4842828c1e3af87a06f460372b6",
+          "md5": "54a3c22df0e5846ec0dd622d5d538b4e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "io.github.skylot",
+          "module": "raung-disasm",
+          "version": {
+            "requires": "0.1.1"
+          }
+        },
+        {
+          "group": "io.github.skylot",
+          "module": "jadx-core",
+          "version": {
+            "requires": "dev"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jadx-java-input-dev.jar",
+          "url": "jadx-java-input-dev.jar",
+          "size": 113495,
+          "sha512": "0a8915bac3bb55bba98a498cb7853a0200caae0d7e9c534b505c3662fa6dbf1a4aa546764fe6fb3cc2551b6250a2373cecc7990e0d2fe68e785527a0644e75d8",
+          "sha256": "6d3a85f2dd9117ca563d0749e1d18aef83ae2bcae085a6ddeb76d2c8d7daff90",
+          "sha1": "946722d284e5c4842828c1e3af87a06f460372b6",
+          "md5": "54a3c22df0e5846ec0dd622d5d538b4e"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jadx-java-input-dev-javadoc.jar",
+          "url": "jadx-java-input-dev-javadoc.jar",
+          "size": 315255,
+          "sha512": "18cb861ad0a324623284e96ed4ceeb0cf7a81811d564503aaba3b0ac1d4008bfb50859c412782c87695dbd08926dfc295cf46b4542a43cf1df6c83f5a3e6f1ab",
+          "sha256": "aedbe69aa482f848132cff95333bd8ce6d6040f06f4eb7785567a0cb6185e733",
+          "sha1": "fe6673eb4d511fbcc591abe606fe8630051034c8",
+          "md5": "f74ee937a9f26860d058855b4049752a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jadx-java-input-dev-sources.jar",
+          "url": "jadx-java-input-dev-sources.jar",
+          "size": 53165,
+          "sha512": "74155eefa9bea1b0fc5179ba36e8c0231d5f4cb719cea4bdbb9e0554f0153cbec4a7758072d75a04611e6990a1bf043d4b48e6669a26294e798923389b68f31e",
+          "sha256": "bb527143754cbc70a6753ec52c077478a96a3cfaad0364acf66c0f653f2d8cf9",
+          "sha1": "f18e87222271037cc0a94f8718556b3d7bd2a246",
+          "md5": "70e85f1a388bfce43ffd29e1c5bd2955"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+jadx.plugins.mappings
+jadx.plugins.mappings.load
+jadx.plugins.mappings.save
+jadx.plugins.mappings.utils

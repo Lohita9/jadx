@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"jadx.plugins.tools"},{"l":"jadx.plugins.tools.data"},{"l":"jadx.plugins.tools.resolvers"},{"l":"jadx.plugins.tools.resolvers.file"},{"l":"jadx.plugins.tools.resolvers.github"},{"l":"jadx.plugins.tools.resolvers.github.data"},{"l":"jadx.plugins.tools.utils"}];updateSearchResults();

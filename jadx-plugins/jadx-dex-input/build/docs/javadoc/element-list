@@ -1,0 +1,8 @@
+jadx.plugins.input.dex
+jadx.plugins.input.dex.insns
+jadx.plugins.input.dex.insns.payloads
+jadx.plugins.input.dex.sections
+jadx.plugins.input.dex.sections.annotations
+jadx.plugins.input.dex.sections.debuginfo
+jadx.plugins.input.dex.smali
+jadx.plugins.input.dex.utils

@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.skylot",
+    "module": "jadx-raung-input",
+    "version": "dev",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.skylot",
+          "module": "jadx-core",
+          "version": {
+            "requires": "dev"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jadx-raung-input-dev.jar",
+          "url": "jadx-raung-input-dev.jar",
+          "size": 4291,
+          "sha512": "4a76465f5ff50588b8df79a0db556a4df73b589b48fe853a13daf9e46df8b87d8895ba98534173421a597658a67fa1327a0f063ebbc813ca577b974b7c8fc844",
+          "sha256": "913405cbb57ce163864e7e66a6ae76563d0e43373d6307c8ea5da5af6a195f23",
+          "sha1": "54f94c88fe90e06f5832b33cb39c847ed9b7fc29",
+          "md5": "00b7c26197f98cf0095eab1782bdcfad"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "io.github.skylot",
+          "module": "raung-asm",
+          "version": {
+            "requires": "0.1.1"
+          }
+        },
+        {
+          "group": "io.github.skylot",
+          "module": "jadx-core",
+          "version": {
+            "requires": "dev"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jadx-raung-input-dev.jar",
+          "url": "jadx-raung-input-dev.jar",
+          "size": 4291,
+          "sha512": "4a76465f5ff50588b8df79a0db556a4df73b589b48fe853a13daf9e46df8b87d8895ba98534173421a597658a67fa1327a0f063ebbc813ca577b974b7c8fc844",
+          "sha256": "913405cbb57ce163864e7e66a6ae76563d0e43373d6307c8ea5da5af6a195f23",
+          "sha1": "54f94c88fe90e06f5832b33cb39c847ed9b7fc29",
+          "md5": "00b7c26197f98cf0095eab1782bdcfad"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jadx-raung-input-dev-javadoc.jar",
+          "url": "jadx-raung-input-dev-javadoc.jar",
+          "size": 95700,
+          "sha512": "eb7f2938cf1fe838d8197260f91e9277da548e138e922de4cfd2ce3808262e54d9750e56a53e0872e50f286fe9d705f75690854f366c325a709b7967772ca91d",
+          "sha256": "8170630777fd45e29e799b1a84c17c4d8bc745c156d0f7110ceeeb15f24da46c",
+          "sha1": "511fd9a18f0ae9eaac088a2450eca3a7c2a4db34",
+          "md5": "686b55433d0feb930cad28471c7d15bc"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jadx-raung-input-dev-sources.jar",
+          "url": "jadx-raung-input-dev-sources.jar",
+          "size": 2358,
+          "sha512": "feae6ab2b46104979d5c2d1237e9f4e768ef3adb3cc6fe5c3da3ba9a1ed60a1ae5bdc8d246a07a8a65af72fbd5d0482fe700203fc94e9bc5fa308f76793329e4",
+          "sha256": "4d50be019f4180eb93e6e2a5f1b875781fb4efd9bc1e2201b4ffd66902fd800a",
+          "sha1": "680d5121b2d691bb8055fd73841898b359a60161",
+          "md5": "c4967dc328725089e934c2f90b971a7b"
+        }
+      ]
+    }
+  ]
+}

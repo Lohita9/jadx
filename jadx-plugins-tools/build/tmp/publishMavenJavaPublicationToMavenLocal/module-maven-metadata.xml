@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>io.github.skylot</groupId>
+  <artifactId>jadx-plugins-tools</artifactId>
+  <versioning>
+    <latest>dev</latest>
+    <release>dev</release>
+    <versions>
+      <version>dev</version>
+    </versions>
+    <lastUpdated>20241003141432</lastUpdated>
+  </versioning>
+</metadata>

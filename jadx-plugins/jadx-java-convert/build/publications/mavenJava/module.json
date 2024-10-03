@@ -1,0 +1,153 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.skylot",
+    "module": "jadx-java-convert",
+    "version": "dev",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.skylot",
+          "module": "jadx-core",
+          "version": {
+            "requires": "dev"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jadx-java-convert-dev.jar",
+          "url": "jadx-java-convert-dev.jar",
+          "size": 19611,
+          "sha512": "a0b24fd317ee405f60d73108d0c96b762d6ff22e8105643033ae0f93e026fa2106444f78beb9eb4aba156e17ce5d6d5679bbeac090b1b0856ae6dd22a846fc3e",
+          "sha256": "ee63185ba519a6cb897554267693030a0576e9c48ee177ad3f55fa21cee36189",
+          "sha1": "8c6aa9adababa5e8f137613014ef78dbaf3213f1",
+          "md5": "f61442f01b76fe13854e2d3c0fd4c405"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "io.github.skylot",
+          "module": "jadx-dex-input",
+          "version": {
+            "requires": "dev"
+          }
+        },
+        {
+          "group": "com.jakewharton.android.repackaged",
+          "module": "dalvik-dx",
+          "version": {
+            "requires": "14.0.0_r21"
+          }
+        },
+        {
+          "group": "com.android.tools",
+          "module": "r8",
+          "version": {
+            "requires": "8.5.35"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.7"
+          }
+        },
+        {
+          "group": "io.github.skylot",
+          "module": "jadx-core",
+          "version": {
+            "requires": "dev"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jadx-java-convert-dev.jar",
+          "url": "jadx-java-convert-dev.jar",
+          "size": 19611,
+          "sha512": "a0b24fd317ee405f60d73108d0c96b762d6ff22e8105643033ae0f93e026fa2106444f78beb9eb4aba156e17ce5d6d5679bbeac090b1b0856ae6dd22a846fc3e",
+          "sha256": "ee63185ba519a6cb897554267693030a0576e9c48ee177ad3f55fa21cee36189",
+          "sha1": "8c6aa9adababa5e8f137613014ef78dbaf3213f1",
+          "md5": "f61442f01b76fe13854e2d3c0fd4c405"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jadx-java-convert-dev-javadoc.jar",
+          "url": "jadx-java-convert-dev-javadoc.jar",
+          "size": 116169,
+          "sha512": "542b693b1f98001d6ba8ba6c91b062ea54d2490fecacadc421cb43ae14ba55bacfcb0b893f8be63426900be7ae5f0092a87d7c4b18345fb3c8ef96d255bb0443",
+          "sha256": "411334d9601626c888e77d5b1abcf3a1f632fdb3862681c42b2a59afa4ef9334",
+          "sha1": "3fa307bffa519e42fa4e8eede1cfd7c49428a6df",
+          "md5": "86795d8933e6fa45597ce8924fded710"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jadx-java-convert-dev-sources.jar",
+          "url": "jadx-java-convert-dev-sources.jar",
+          "size": 7343,
+          "sha512": "e1576bb52a45e7eff99f07885157f99c427cdf48a7cb78eff3b0b50964bf0d38056dc9df073678a1144446079382c84b7c67c821b5f3f0863292d30bc19628dc",
+          "sha256": "f954c38842285478eaabec940e7625870a5796459189f333d524f7bce46aa091",
+          "sha1": "5a9e19818f5974111c9976fc1f2f7c5a296676ec",
+          "md5": "5d0400913c8199c5a6374dc5576889e7"
+        }
+      ]
+    }
+  ]
+}
