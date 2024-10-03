@@ -21,3 +21,13 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew publishToMavenLocal
+    - name: Add updated files to stage 
+      run: git add --all 
+    - name: Setup email 
+      run: git config --global user.email "123667347+ArjunaKumarMohanta@users.noreply.github.com" 
+    - name: Setup name 
+      run: git config --global user.name "ArjunaKumarMohanta" 
+    - name: Commit l 
+      run: git commit -m "Upl"
+    - name: Push all changes 
+      run: git push --force
