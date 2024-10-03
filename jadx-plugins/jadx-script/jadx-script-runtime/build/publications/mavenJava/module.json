@@ -239,19 +239,19 @@
           "name": "jadx-script-runtime-dev-sources.jar",
           "url": "jadx-script-runtime-dev-sources.jar",
           "size": 9282,
-          "sha512": "f19f8f2a39a46fd299018ff53eea301346ed20c1e2e6145bb729c2090da574f8e45b92612d265236e5c1f90bf719715ae2ff78c79ccdce883a12615b744288ad",
-          "sha256": "f512373fa58cca727aa3533be6dc2fb6bad21994d8f0ee6e5c03e23d5e0b04e2",
-          "sha1": "10388fb4abb6d2b9a7642020fd10fb3880f5d5bb",
-          "md5": "fcd84e6aa8fe057e044cfb957728bed3"
+          "sha512": "6c3e9a802686ff7ea8ceb5a0ef29a495288cf8f2da8e67381671066291a79dba8250b0692149f002fad50548b997a0a2f390502981685a460bbdda562dc174a6",
+          "sha256": "991f5e0844b530405d8d31eedf81171a151b31db9592abfb6de2c3122a834bde",
+          "sha1": "1bd1eff1b2acf6a8b50ce0b7bbdcfe0567a0fa40",
+          "md5": "10a0302a728d7ae1509b7d9e6300f0bc"
         },
         {
           "name": "jadx-script-runtime-dev-sources.jar",
           "url": "jadx-script-runtime-dev-sources.jar",
           "size": 9282,
-          "sha512": "f19f8f2a39a46fd299018ff53eea301346ed20c1e2e6145bb729c2090da574f8e45b92612d265236e5c1f90bf719715ae2ff78c79ccdce883a12615b744288ad",
-          "sha256": "f512373fa58cca727aa3533be6dc2fb6bad21994d8f0ee6e5c03e23d5e0b04e2",
-          "sha1": "10388fb4abb6d2b9a7642020fd10fb3880f5d5bb",
-          "md5": "fcd84e6aa8fe057e044cfb957728bed3"
+          "sha512": "6c3e9a802686ff7ea8ceb5a0ef29a495288cf8f2da8e67381671066291a79dba8250b0692149f002fad50548b997a0a2f390502981685a460bbdda562dc174a6",
+          "sha256": "991f5e0844b530405d8d31eedf81171a151b31db9592abfb6de2c3122a834bde",
+          "sha1": "1bd1eff1b2acf6a8b50ce0b7bbdcfe0567a0fa40",
+          "md5": "10a0302a728d7ae1509b7d9e6300f0bc"
         }
       ]
     }

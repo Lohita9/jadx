@@ -146,19 +146,19 @@
           "name": "jadx-xapk-input-dev-sources.jar",
           "url": "jadx-xapk-input-dev-sources.jar",
           "size": 3747,
-          "sha512": "0a8881cd224bf12500c69bce7142791a1432d8f5ee48561792f8912e2b55bb2e93fb16816414f8fa94f9b1ee993c463126aa88ce419336fa309882309dea7a19",
-          "sha256": "197221237fa1b4ef1f2747cbcd1db3a3cc4b4ef075d24a40779a316a40db007f",
-          "sha1": "9b3fbe61011a7bdafb9b286551899788da525046",
-          "md5": "57e68e7e477bdd559e84373072441341"
+          "sha512": "2eab5429c7d920ec4c5e3bcafb7ede1baa78a62e7f0f3cb8cf5c54995abfd009eb2e7125d54f93e0a56a8f7c310968d804f53afea142fc3481439d25cbc048f4",
+          "sha256": "85fac8109854ec2c5e9c28a8e43aeb73160bd80d1661b69939b31fe2f4aa4c01",
+          "sha1": "5f653aab644b85923436d5e3e0d6da0cf1c73e6f",
+          "md5": "96f8037ac1bb9a5c0f48b08ee8d2a451"
         },
         {
           "name": "jadx-xapk-input-dev-sources.jar",
           "url": "jadx-xapk-input-dev-sources.jar",
           "size": 3747,
-          "sha512": "0a8881cd224bf12500c69bce7142791a1432d8f5ee48561792f8912e2b55bb2e93fb16816414f8fa94f9b1ee993c463126aa88ce419336fa309882309dea7a19",
-          "sha256": "197221237fa1b4ef1f2747cbcd1db3a3cc4b4ef075d24a40779a316a40db007f",
-          "sha1": "9b3fbe61011a7bdafb9b286551899788da525046",
-          "md5": "57e68e7e477bdd559e84373072441341"
+          "sha512": "2eab5429c7d920ec4c5e3bcafb7ede1baa78a62e7f0f3cb8cf5c54995abfd009eb2e7125d54f93e0a56a8f7c310968d804f53afea142fc3481439d25cbc048f4",
+          "sha256": "85fac8109854ec2c5e9c28a8e43aeb73160bd80d1661b69939b31fe2f4aa4c01",
+          "sha1": "5f653aab644b85923436d5e3e0d6da0cf1c73e6f",
+          "md5": "96f8037ac1bb9a5c0f48b08ee8d2a451"
         }
       ]
     }
