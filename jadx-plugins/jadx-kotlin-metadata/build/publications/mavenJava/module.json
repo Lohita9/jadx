@@ -139,19 +139,19 @@
           "name": "jadx-kotlin-metadata-dev-sources.jar",
           "url": "jadx-kotlin-metadata-dev-sources.jar",
           "size": 12256,
-          "sha512": "033c13c588c632a29c6e966f4e9baee40be090a6b475abd48d58847e6d4559a4ff72d4bd0cb0ceba0d2d324db15c93e4c6f7fb0179f8751acf5d35ce114a45af",
-          "sha256": "49684579e9f7740af04e703625254b4c7af57c28de34795346ff643d6897498a",
-          "sha1": "65c8d15a386214f3cc1ff57ed4a1e273e2d88925",
-          "md5": "9cbadd54ebe9a5c2b19ad8913fb3514c"
+          "sha512": "8160a690ef1a6b3de8c2c38303e16e561d2607372b1996c61bd9747ec0ec3a3dfab80178791c00fce33651ac9920d1a4e089031c6ddf799935dd8c2256843c2c",
+          "sha256": "d9c593176f083fc2d9f0c8168bb1338f3adfe4dd076117f636a1832217deb431",
+          "sha1": "a817147ca058b68bfd3b473c6386029ec717a420",
+          "md5": "a6979d219e5bfba91148781d7bd1782d"
         },
         {
           "name": "jadx-kotlin-metadata-dev-sources.jar",
           "url": "jadx-kotlin-metadata-dev-sources.jar",
           "size": 12256,
-          "sha512": "033c13c588c632a29c6e966f4e9baee40be090a6b475abd48d58847e6d4559a4ff72d4bd0cb0ceba0d2d324db15c93e4c6f7fb0179f8751acf5d35ce114a45af",
-          "sha256": "49684579e9f7740af04e703625254b4c7af57c28de34795346ff643d6897498a",
-          "sha1": "65c8d15a386214f3cc1ff57ed4a1e273e2d88925",
-          "md5": "9cbadd54ebe9a5c2b19ad8913fb3514c"
+          "sha512": "8160a690ef1a6b3de8c2c38303e16e561d2607372b1996c61bd9747ec0ec3a3dfab80178791c00fce33651ac9920d1a4e089031c6ddf799935dd8c2256843c2c",
+          "sha256": "d9c593176f083fc2d9f0c8168bb1338f3adfe4dd076117f636a1832217deb431",
+          "sha1": "a817147ca058b68bfd3b473c6386029ec717a420",
+          "md5": "a6979d219e5bfba91148781d7bd1782d"
         }
       ]
     }

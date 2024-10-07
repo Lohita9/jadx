@@ -183,19 +183,19 @@
           "name": "jadx-script-plugin-dev-sources.jar",
           "url": "jadx-script-plugin-dev-sources.jar",
           "size": 5112,
-          "sha512": "78dc485ad7decbb43e0e4edb89a3eddfaa06d329c42ca65ffeb633dd25fe5d73b24dab1bb27cbe9381ebf8f4e07af9efbf6c0a4748e4429b6b25d0bc062f2a5b",
-          "sha256": "dd6896037614de7454340cf90a4352191123a79a69df06334fbd595b40f4dea3",
-          "sha1": "e2605356cf41f0683fd6b6121b8489eeccbee24f",
-          "md5": "f08530344550bb404ad00e5273a7f823"
+          "sha512": "053aa8e712096ee422fd4dc8de5a24ced64b8e1672d65afa8042ed04d3e55b446a4b2f7ba6623f93aeef8bc263a2cd2a6723b76a75e930f06a45f4d52c146da8",
+          "sha256": "c83ceb8e399260ca05ca1c96a4fc2b358888cc82382c5c178bf811159a4863fa",
+          "sha1": "bd5d372c54724879fea8e5917aa736a6ffba6aae",
+          "md5": "e7f7745fdbe20ec25e87cf75b3117ad8"
         },
         {
           "name": "jadx-script-plugin-dev-sources.jar",
           "url": "jadx-script-plugin-dev-sources.jar",
           "size": 5112,
-          "sha512": "78dc485ad7decbb43e0e4edb89a3eddfaa06d329c42ca65ffeb633dd25fe5d73b24dab1bb27cbe9381ebf8f4e07af9efbf6c0a4748e4429b6b25d0bc062f2a5b",
-          "sha256": "dd6896037614de7454340cf90a4352191123a79a69df06334fbd595b40f4dea3",
-          "sha1": "e2605356cf41f0683fd6b6121b8489eeccbee24f",
-          "md5": "f08530344550bb404ad00e5273a7f823"
+          "sha512": "053aa8e712096ee422fd4dc8de5a24ced64b8e1672d65afa8042ed04d3e55b446a4b2f7ba6623f93aeef8bc263a2cd2a6723b76a75e930f06a45f4d52c146da8",
+          "sha256": "c83ceb8e399260ca05ca1c96a4fc2b358888cc82382c5c178bf811159a4863fa",
+          "sha1": "bd5d372c54724879fea8e5917aa736a6ffba6aae",
+          "md5": "e7f7745fdbe20ec25e87cf75b3117ad8"
         }
       ]
     }
